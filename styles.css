@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Cinzel-Regular;
+    src: url(fonts/Cinzel-Regular.otf);
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img/main_image.jpg");
+
+    /* Set a specific height */
+    height: 900px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.global-padding {
+    padding: 70px 0px 70px 0px;
+}
+
+/* ****** NAVBAR ********* */
+.navbar {
+    border: 1px solid white;
+}
+.navbar-brand {
+    font-size: 26px;
+}
+/* *********************** */
+
+/* ********* TITLE ********* */
+.title-text {
+    color: white;
+    font-family: Cinzel-Regular;
+    font-size: 74px;
+    font-weight: 600;
+}
+.title {
+    font-size: 44px;
+    font-weight: 600;
+}
+.title-container {
+    padding-top: 250px;
+}
+/* ************************* */
+
+.bio-section {
+    height: auto;
+    background-color: lightgray;
+}
+.bio-pic {
+    border-radius: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 50px;
+}
+.bio-padding {
+    padding: 0px 50px 0px 50px
+}
