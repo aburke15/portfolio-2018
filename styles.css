@@ -23,7 +23,25 @@ body {
 }
 
 .global-padding {
-    padding: 70px 0px 70px 0px;
+    padding: 50px 0px 50px 0px;
+}
+.global-margin {
+    margin-top: 100px;
+}
+
+.b-underline {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.w-underline {
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 100px;
 }
 
 /* ****** NAVBAR ********* */
@@ -36,6 +54,9 @@ body {
 /* *********************** */
 
 /* ********* TITLE ********* */
+.title-section {
+    padding-top: 250px;
+}
 .title-text {
     color: white;
     font-family: Cinzel-Regular;
@@ -46,15 +67,12 @@ body {
     font-size: 44px;
     font-weight: 600;
 }
-.title-container {
-    padding-top: 250px;
-}
 /* ************************* */
 
 /* ********** BIO ********** */
 .bio-section {
     height: auto;
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 .bio-pic {
     border-radius: 50%;
@@ -74,14 +92,20 @@ body {
 .skills-section {
     height: auto;
 }
-.skills {
-    
+.skill-icon {
     display: block;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     height: 150px;
-    max-width: 260px;
+    width: auto;
     text-align: center;
     opacity: .85;
     margin-left: auto;
     margin-right: auto;
+}
+/* ***************************** */
+
+/* ************ RESUME ************* */
+.resume-section {
+    height: auto;
+    background-color: lightgrey;
 }

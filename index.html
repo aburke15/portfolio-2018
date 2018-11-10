@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="">
+<body>
+
     <!-- NAVBAR -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -24,7 +25,6 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <!-- <li class="active"><a href="#">Home</a></li> -->
                     <li><a href="#">Me</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Resume</a></li>
@@ -36,9 +36,8 @@
     </nav>
 
     <!-- TITLE SECTION -->
-    <section class="parallax">
-        <div class="container title-container">
-            <!-- TODO: change font -->
+    <section class="title-section parallax">
+        <div class="container">
             <h1 class="text-center title-text">Andre Burke</h1>
             <h2 class="text-center title title-text">Software Engineer</h2>
         </div>
@@ -47,8 +46,15 @@
     <!-- BIO SECTION -->
     <section class="bio-section global-padding">
         <div class="container">
-            <img class="img-responsive bio-pic" src="img/prof_pic_2018.jpeg" alt="Andre Burke bio picture">
-            <div class="bio-padding">
+            <!-- HEADER FOR EACH SECTION -->
+            <div class="row">
+                <h2 class="text-center">About Me</h2>
+                <p class="b-underline"></p>
+            </div>
+            <div class="row global-margin">
+                <img class="img-responsive bio-pic" src="img/prof_pic_2018.jpeg" alt="Andre Burke bio picture">
+            </div>
+            <div class="row bio-padding">
                 <p class="text-center">Whats sparked my interest in coding was my love for technology. For several
                     years
                     now
@@ -68,51 +74,76 @@
                     about programming, you can do most anything with it.
                 </p>
             </div>
-
         </div>
     </section>
+
     <!-- SKILLS SECTION -->
     <section class="skills-section global-padding">
         <div class="container">
             <div class="row">
+                <h2 class="text-center">Skills</h2>
+                <p class="b-underline"></p>
+            </div>
+            <div class="row global-margin">
                 <div class="col-md-6">
-                    <img class="skills" src="img/c_sharp.png" alt="C# programming icon">
+                    <img class="skill-icon" src="img/c_sharp.png" alt="C# programming icon">
                     <h3></h3>
                 </div>
                 <div class="col-md-6">
-                    <img class="skills" src="img/sql_server.png" alt="">
+                    <img class="skill-icon" src="img/net_core.jpg" alt="">
                     <h3></h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row global-margin">
                 <div class="col-md-6">
-                    <img class="skills" src="img/css.png" alt="">
+                    <img class="skill-icon" src="img/sql_server.png" alt="">
                     <h3></h3>
                 </div>
                 <div class="col-md-6">
-                    <img class="skills" src="img/html_5.png" alt="">
+                    <img class="skill-icon" src="img/ef_core.png" alt="">
                     <h3></h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row global-margin">
                 <div class="col-md-6">
-                    <img class="skills" src="img/javascript.jpg" alt="">
+                    <img class="skill-icon" src="img/css.png" alt="">
                     <h3></h3>
                 </div>
                 <div class="col-md-6">
-                    <img class="skills" height="200px" width="200px" src="img/git.svg" alt="">
+                    <img class="skill-icon" src="img/html_5.png" alt="">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="row global-margin">
+                <div class="col-md-6">
+                    <img class="skill-icon" src="img/javascript.jpg" alt="">
+                    <h3></h3>
+                </div>
+                <div class="col-md-6">
+                    <img class="skill-icon" height="200px" width="200px" src="img/git.svg" alt="">
                     <h3></h3>
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-- RESUME SECTION -->
-    <section></section>
+    <section class="resume-section global-padding">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Resume</h2>
+                <p class="b-underline"></p>
+            </div>
+            <div class="row global-margin" style="margin-top: 100px">
+                <img class="img-responsive" src="img/Andre Burke.jpg" alt="My Resume">
+            </div>
+        </div>
+    </section>
 
     <!-- PROJECTS SECTION -->
-    <section></section>
+    <section class="global-padding">
+
+    </section>
 
     <!-- CONTACT SECTION -->
     <footer></footer>
