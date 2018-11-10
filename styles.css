@@ -51,6 +51,7 @@ body {
 }
 /* ************************* */
 
+/* ********** BIO ********** */
 .bio-section {
     height: auto;
     background-color: lightgray;
@@ -66,4 +67,21 @@ body {
 }
 .bio-padding {
     padding: 0px 50px 0px 50px
+}
+/* ************************** */
+
+/* ********** SKILLS *********** */
+.skills-section {
+    height: auto;
+}
+.skills {
+    
+    display: block;
+    margin-top: 100px;
+    height: 150px;
+    max-width: 260px;
+    text-align: center;
+    opacity: .85;
+    margin-left: auto;
+    margin-right: auto;
 }
